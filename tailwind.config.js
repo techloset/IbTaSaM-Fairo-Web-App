@@ -13,10 +13,9 @@ module.exports = {
         _grayColor: "#A3A7B0",
         _blackColor: "#030306",
         _redColor: "#E2414B",
-        _paratColor:"#23CE9D",
-        _blueColor:"#6E41E2",
-        _verificationCOlor:"#6551E0",
-
+        _paratColor: "#23CE9D",
+        _blueColor: "#6E41E2",
+        _verificationCOlor: "#6551E0",
         _bgColor: "#F6FBFE",
       },
     },

@@ -3,7 +3,6 @@ import SideBar from "../(components)/SideBar/SideBar";
 import img from "@/public/svg/profile/image.svg";
 import plus from "@/public/svg/plus.svg";
 import Header from "../(components)/Header/Header";
-import Link from "next/link";
 
 export default function page() {
   return (
@@ -89,15 +88,12 @@ export default function page() {
               </div>
               <div className="proRadioText">Designated Signing Wallet</div>
             </div>
-            <Link
-              href="/profile/illuminatintf"
-              className="w-[214px] h-[37px] px-12 py-2 bg-_paratColor justify-start items-center gap-1 inline-flex mt-6 mb-8 md:mt-9 md:mb-12"
-            >
+            <div className="w-[214px] h-[37px] px-12 py-2 bg-_paratColor justify-start items-center gap-1 inline-flex mt-6 mb-8 md:mt-9 md:mb-12">
               <div className="proParatBtn">Add new wallet</div>
               <div className="w-4 h-4 relative">
                 <Image src={plus} alt="plus" />
               </div>
-            </Link>
+            </div>
             <div className="w-full h-[52px] px-12 py-2 bg-_paratColor flex justify-center items-center gap-1">
               <div className="proParatBtn">Save changes</div>
             </div>

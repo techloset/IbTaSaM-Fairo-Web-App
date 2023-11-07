@@ -77,35 +77,3 @@ export default function page() {
     </>
   );
 }
-
-// <div className="w-[640px] h-[200px] mx-auto bg-white border border-gray-100 p-6">
-//         <textarea
-//           type="text"
-//           placeholder="Paste your message here"
-//           className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none w-[100%] resize-none"
-//         ></textarea>
-//       </div>
-//       <div className="w-[640px] h-[200px] mx-auto relative">
-//         <div className="text-black text-lg font-medium font-['Aeonik'] leading-[27px] flex items-center">
-//           Gating
-//           <div className="flex items-center my-7 [&>span]:hover:inline-flex">
-//             <Image src={info} alt="info" className="ml-1 cursor-pointer" />
-//             <span className="w-[210px] h-[52px] justify-start items-start hidden absolute left-20">
-//               <div className="bg-slate-700 rounded-lg justify-start items-center flex">
-//                 <div className="rounded-lg flex-col justify-start items-center inline-flex">
-//                   <div className="p-2.5 justify-start items-center gap-2.5 inline-flex">
-//                     <div className="text-slate-200 text-xs font-normal font-['Source Sans Pro'] leading-none">
-//                       Users must sign up for a Fairo account
-//                       <br />
-//                       to view gated messages.
-//                     </div>
-//                   </div>
-//                 </div>
-//                 <div className="w-[52px] self-stretch origin-top-left rotate-90 flex-col justify-start items-center inline-flex">
-//                   <div className="w-9 h-2 relative"></div>
-//                 </div>
-//               </div>
-//             </span>
-//           </div>
-//         </div>
-//       </div>

@@ -8,7 +8,7 @@
 }
 
 body {
-  /* font-family: Aeonik; */
+  font-family: Aeonik;
 }
 
 .sideLinkClass1 {
@@ -59,11 +59,10 @@ body {
   @apply w-[610px] text-black text-base font-normal font-['Aeonik'] leading-normal;
 }
 
-
-.dashOutStanding{
+.dashOutStanding {
   @apply text-sm  font-['Aeonik'] leading-[21px];
 }
 
-.inviTableHead{
+.inviTableHead {
   @apply text-gray-900 font-bold;
 }

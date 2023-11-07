@@ -1,7 +1,4 @@
-import Image from "next/image";
 import SideBar from "../(components)/SideBar/SideBar";
-import img from "@/public/images/coolman-images/ProfilePic.jpg";
-import imghash from "@/public/svg/hash.svg";
 import Header from "../(components)/Header/Header";
 import FeedCard from "./FeedCard/FeedCard";
 

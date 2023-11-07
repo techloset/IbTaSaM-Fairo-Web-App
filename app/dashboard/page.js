@@ -1,7 +1,6 @@
 import SideBar from "../(components)/SideBar/SideBar";
 import bullhorn from "@/public/svg/Bullhorn.svg";
 import editAlt from "@/public/svg/invitesSvg/editAlt.svg";
-import Image from "next/image";
 import Header from "../(components)/Header/Header";
 import OutstandingCard from "./(components)/OutstandingCard/OutstandingCard";
 import TeamCard from "./(components)/TeamCard/TeamCard";
