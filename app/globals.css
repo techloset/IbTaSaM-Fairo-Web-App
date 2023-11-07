@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Aeonik;
+  src: url(../public/fonts/AeonikTRIAL-Regular.otf);
+}
+
+body {
+  /* font-family: Aeonik; */
+}
+
+.sideLinkClass1 {
+  @apply justify-start gap-2 inline-flex;
+}
+
+.sideLinkClass2 {
+  @apply text-center text-sm font-normal font-['Aeonik'] leading-[21px];
+}
+
+.proSmallInputText {
+  @apply text-slate-800 text-sm font-normal font-['Aeonik'] leading-[21px] py-2;
+}
+
+.proSmallInputDiv {
+  @apply md:max-w-full h-[51px] px-4 py-[15px] bg-white border border-gray-100 flex justify-start items-start gap-2.5;
+}
+
+.proSmallInput {
+  @apply grow shrink basis-0 text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none;
+}
+
+.proLarInputDiv {
+  @apply h-[52px] px-4 py-[15px] bg-white border border-gray-100 flex justify-start items-start gap-2.5;
+}
+
+.proLarInput {
+  @apply grow shrink basis-0 text-slate-800 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none placeholder:text-slate-800;
+}
+
+.proUplinkDiv {
+  @apply h-[52px] px-12 py-2 bg-_redColor flex justify-center items-center gap-1 mt-5;
+}
+
+.proUplinkBtn {
+  @apply text-center text-white text-sm font-normal font-['Aeonik'] leading-[21px];
+}
+
+.proParatBtn {
+  @apply text-center text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px];
+}
+
+.proRadioBtn {
+  @apply w-5 h-5 relative flex-col justify-start items-start inline-flex border-2 border-black rounded-full p-0.5;
+}
+
+.proRadioText {
+  @apply w-[610px] text-black text-base font-normal font-['Aeonik'] leading-normal;
+}
+
+
+.dashOutStanding{
+  @apply text-sm  font-['Aeonik'] leading-[21px];
+}
+
+.inviTableHead{
+  @apply text-gray-900 font-bold;
+}
