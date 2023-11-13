@@ -19,11 +19,11 @@ export default function Header() {
           />
         </div>
         <div className="flex">
-          <div className="w-14 h-10 px-4 py-2 bg-gray-100 justify-start items-start gap-2.5 inline-flex md:hidden mr-3">
+          <button className="w-14 h-10 px-4 py-2 bg-gray-100 justify-start items-start gap-2.5 inline-flex md:hidden mr-3">
             <div className="w-6 h-6 relative">
               <Image src={search} alt="search" width={50} />
             </div>
-          </div>
+          </button>
           <button className="w-14 h-10 px-4 md:w-[145px] md:px-12 py-2 bg-_greenColor justify-start items-start gap-2.5 inline-flex">
             <div className="w-6 h-6 relative md:hidden">
               <Image src={user} alt="user" width={50} />

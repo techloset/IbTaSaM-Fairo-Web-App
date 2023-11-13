@@ -20,21 +20,21 @@ export default function Header() {
           />
         </div>
         <div className="flex md:hidden">
-          <div className="w-14 h-10 px-4 py-2 bg-gray-100 justify-start items-start gap-2.5 inline-flex md:hidden mr-3">
+          <button className="w-14 h-10 px-4 py-2 bg-gray-100 justify-start items-start gap-2.5 inline-flex md:hidden mr-3">
             <div className="w-6 h-6 relative">
               <Image src={search} width={50} alt="search" />
             </div>
-          </div>
-          <div className="w-10 h-10 justify-center items-center inline-flex">
+          </button>
+          <button className="w-10 h-10 justify-center items-center inline-flex">
             <Image
               src={imghead}
               alt="imgHead"
               className="w-10 h-10 rounded-full"
             />
-          </div>
+          </button>
         </div>
         <div className="w-[185px] h-10 p-1 bg-slate-50 flex-col justify-start items-start gap-2.5 hidden md:inline-flex">
-          <div className="justify-start items-center gap-4 inline-flex">
+          <button className="justify-start items-center gap-4 inline-flex">
             <div className="justify-start items-center gap-4 flex">
               <div className="w-5 h-5 relative">
                 <Image src={arrow} alt="arrow-down" />
@@ -50,7 +50,7 @@ export default function Header() {
                 className="w-8 h-8 rounded-full"
               />
             </div>
-          </div>
+          </button>
         </div>
       </div>
     </div>

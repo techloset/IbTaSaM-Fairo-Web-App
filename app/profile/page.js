@@ -33,8 +33,8 @@ export default function page() {
                 </div>
               </div>
               <div className="text-sm font-normal font-['Aeonik'] leading-[21px]">
-                <span className="text-gray-900 ">Upload new image •</span>
-                <span className="text-_redColor ms-1">Remove image</span>
+                <button className="text-gray-900 ">Upload new image •</button>
+                <button className="text-_redColor ms-1">Remove image</button>
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-5 mt-3">
@@ -61,9 +61,9 @@ export default function page() {
                   placeholder="0x9dA7E19cF6894B5b9AB96cfB9103678D414Af64c"
                 />
               </div>
-              <div className="md:w-44 md:hidden proUplinkDiv">
+              <button className="w-full md:hidden proUplinkDiv">
                 <div className="proUplinkBtn">Unlink</div>
-              </div>
+              </button>
             </div>
             <div className="flex items-center gap-2 mb-6">
               <div className="proRadioBtn">
@@ -78,9 +78,9 @@ export default function page() {
                   placeholder="0x9dA7E19cF6894B5b9AB96cfB9103678D414Af64c"
                 />
               </div>
-              <div className="md:max-w-44 md:mt-0 proUplinkDiv">
+              <button className="md:max-w-44 md:mt-0 proUplinkDiv">
                 <div className="proUplinkBtn">Unlink</div>
-              </div>
+              </button>
             </div>
             <div className="flex items-center gap-2">
               <div className="proRadioBtn">
@@ -88,15 +88,15 @@ export default function page() {
               </div>
               <div className="proRadioText">Designated Signing Wallet</div>
             </div>
-            <div className="w-[214px] h-[37px] px-12 py-2 bg-_paratColor justify-start items-center gap-1 inline-flex mt-6 mb-8 md:mt-9 md:mb-12">
+            <button className="w-[214px] h-[37px] px-12 py-2 bg-_paratColor justify-start items-center gap-1 inline-flex mt-6 mb-8 md:mt-9 md:mb-12">
               <div className="proParatBtn">Add new wallet</div>
               <div className="w-4 h-4 relative">
                 <Image src={plus} alt="plus" />
               </div>
-            </div>
-            <div className="w-full h-[52px] px-12 py-2 bg-_paratColor flex justify-center items-center gap-1">
+            </button>
+            <button className="w-full h-[52px] px-12 py-2 bg-_paratColor flex justify-center items-center gap-1">
               <div className="proParatBtn">Save changes</div>
-            </div>
+            </button>
           </div>
         </div>
       </div>
