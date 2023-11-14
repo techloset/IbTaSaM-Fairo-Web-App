@@ -138,25 +138,19 @@ export default function page() {
             className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none w-[100%]"
           />
           <div class="w-[42px] h-[37px] p-1 bg-emerald-400 rounded-sm flex-col justify-start items-start gap-2.5 inline-flex">
-            <div class="p-1 justify-start items-start gap-2.5 inline-flex">
-              <div class="text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px]">
-                ETH
-              </div>
-            </div>
+            <button class="p-1 justify-start items-start gap-2.5 inline-flex text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px]">
+              ETH
+            </button>
           </div>
         </div>
         <div className="w-full md:w-[640px] mx-auto">
           <div className="grid grid-cols-2 gap-5 py-8">
-            <div class="py-3.5 bg-white border border-emerald-400 justify-center items-center inline-flex">
-              <div class="text-center text-emerald-400 text-base font-medium font-['Aeonik'] leading-normal">
-                ← Back
-              </div>
-            </div>
-            <div class="py-3.5 bg-teal-900 justify-center items-center inline-flex">
-              <div class="text-center text-emerald-400 text-base font-medium font-['Aeonik'] leading-normal">
-                Continue →
-              </div>
-            </div>
+            <button class="py-3.5 bg-white border border-emerald-400 justify-center items-center inline-flex text-emerald-400 text-base font-medium font-['Aeonik'] leading-normal">
+              ← Back
+            </button>
+            <button class="py-3.5 bg-teal-900 justify-center items-center inline-flex text-emerald-400 text-base font-medium font-['Aeonik'] leading-normal">
+              Continue →
+            </button>
           </div>
         </div>
       </div>

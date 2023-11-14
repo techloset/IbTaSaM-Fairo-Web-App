@@ -25,18 +25,18 @@ export default function TableRow(props) {
       </td>
       <td className="py-2 flex gap-2 justify-end">
         <div className="w-10 h-10 p-1 bg-emerald-400 rounded-sm flex-col justify-center items-center gap-2 inline-flex ml-12 md:ml-0">
-          <div className="p-1 justify-start items-start gap-2.5 inline-flex">
+          <button className="p-1 justify-start items-start gap-2.5 inline-flex">
             <div className="w-6 h-6 relative">
               <Image src={props.editImg} alt="edit" />
             </div>
-          </div>
+          </button>
         </div>
         <div className="w-10 h-10 p-1 bg-emerald-400 rounded-sm flex-col justify-center items-center gap-2 inline-flex">
-          <div className="p-1 justify-start items-start gap-2.5 inline-flex">
+          <button className="p-1 justify-start items-start gap-2.5 inline-flex">
             <div className="w-6 h-6 relative">
               <Image src={props.trashImg} alt="trash" />
             </div>
-          </div>
+          </button>
         </div>
       </td>
     </tr>

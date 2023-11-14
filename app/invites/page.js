@@ -73,11 +73,11 @@ export default function page() {
                   type="text"
                 />
               </div>
-              <div className="w-full lg:w-44 h-[52px] bg-_paratColor items-center gap-1 inline-flex justify-center">
+              <button className="w-full lg:w-44 h-[52px] bg-_paratColor items-center gap-1 inline-flex justify-center">
                 <div className="text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px] flex-shrink-0">
                   Create invite
                 </div>
-              </div>
+              </button>
             </div>
             <div className="text-black text-lg font-normal font-['Aeonik'] leading-[27px] mb-6">
               Invite status

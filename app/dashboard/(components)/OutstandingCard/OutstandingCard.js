@@ -16,11 +16,11 @@ export default function OutstandingCard(props) {
           </span>
         </div>
       </div>
-      <div className="px-6 py-2 bg-_paratColor justify-center items-center gap-1 inline-flex">
+      <button className="px-6 py-2 bg-_paratColor justify-center items-center gap-1 inline-flex">
         <div className="text-center text-teal-900 font-normal dashOutStanding">
           {props.secondBtnText}
         </div>
-      </div>
+      </button>
     </div>
   );
 }

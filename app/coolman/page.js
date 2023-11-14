@@ -17,8 +17,8 @@ export default function page() {
           coolCss="bg-emerald-400 text-black"
           illCss="bg-slate-50 text-gray-400"
         />
-        <div className="lg:w-[862px] h-[85vh] md:h-[464px] bg-white">
-          <div className="m-5 lg:m-8">
+        <div className="lg:w-[862px] md:h-[464px] bg-white">
+          <div className="m-5 lg:m-8 pb-5 md:pb-0">
             <div className="md:flex justify-between items-center pt-5">
               <div className="flex gap-4 items-center">
                 <div className="text-black text-lg font-normal font-['Aeonik'] leading-[27px] flex-shrink-0">
@@ -32,10 +32,10 @@ export default function page() {
                   </div>
                 </div>
               </div>
-              <div className="text-_paratColor text-sm font-normal font-['Aeonik'] leading-[21px] flex items-center gap-2 mt-3 md:mt-0">
+              <button className="text-_paratColor text-sm font-normal font-['Aeonik'] leading-[21px] flex items-center gap-2 mt-3 md:mt-0">
                 <Image src={imgCopy} alt="Copy-Icon" />
                 https://fairo.demo/invite/359d
-              </div>
+              </button>
             </div>
 
             <div className="w-full h-14 px-4 py-3 bg-slate-50 justify-start items-start gap-2.5 inline-flex my-5">
@@ -83,20 +83,18 @@ export default function page() {
                   type="text"
                 />
               </div>
-              <div className="w-full md:w-44 h-[52px] px-12 py-2 bg-_paratColor justify-center items-center gap-1 inline-flex mt-5 md:mt-0">
-                <div className="text-center text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px]">
-                  Save
-                </div>
-              </div>
+              <button className="w-full md:w-44 h-[52px] px-12 py-2 bg-_paratColor justify-center items-center gap-1 inline-flex mt-5 md:mt-0 text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px]">
+                Save
+              </button>
             </div>
 
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 relative flex-col justify-start items-start inline-flex border-2 border-black rounded-full p-0.5">
-                <div className="w-3 h-5 bg-white rounded-full"></div>
+                <button className="w-3 h-5 bg-white rounded-full active:bg-_paratColor"></button>
               </div>
-              <div className="w-[610px] text-black text-base font-normal font-['Aeonik'] leading-normal">
+              <lable className="w-[610px] text-black text-base font-normal font-['Aeonik'] leading-normal">
                 Project does not have a deployer wallet
-              </div>
+              </lable>
             </div>
 
             <div className="gap-4 my-5 md:hidden">
@@ -107,18 +105,14 @@ export default function page() {
                   type="text"
                 />
               </div>
-              <div className="w-full md:w-44 h-[52px] px-12 py-2 bg-_paratColor justify-center items-center gap-1 inline-flex mt-5 md:mt-0">
-                <div className="text-center text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px]">
-                  Save
-                </div>
-              </div>
+              <button className="w-full md:w-44 h-[52px] px-12 py-2 bg-_paratColor justify-center items-center gap-1 inline-flex mt-5 md:mt-0 text-center text-teal-900 text-sm font-normal font-['Aeonik'] leading-[21px]">
+                Save
+              </button>
             </div>
 
-            <div className="w-full h-[52px] px-12 py-2 bg-_redColor flex justify-center items-center gap-1 mt-5 md:mt-12">
-              <div className="text-center text-white text-sm font-normal font-['Aeonik'] leading-[21px]">
-                Save changes
-              </div>
-            </div>
+            <button className="w-full h-[52px] px-12 py-2 bg-_redColor flex justify-center items-center gap-1 mt-5 md:mt-12 text-center text-white text-sm font-normal font-['Aeonik'] leading-[21px]">
+              Save changes
+            </button>
           </div>
         </div>
       </div>

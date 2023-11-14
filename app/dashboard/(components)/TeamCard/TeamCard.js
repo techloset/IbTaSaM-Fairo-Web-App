@@ -8,12 +8,12 @@ export default function TeamCard(props) {
         </div>
       </div>
       <div className="w-[88px] h-10 relative">
-        <div className="w-10 h-10 p-1 left-[48px] top-0 absolute bg-_paratColor rounded-sm flex-col justify-center items-center gap-2 inline-flex">
+        <button className="w-10 h-10 p-1 left-[48px] top-0 absolute bg-_paratColor rounded-sm flex-col justify-center items-center gap-2 inline-flex">
           <div className="w-6 h-6 relative">
             <Image src={props.Icon1} alt="BullHorn" />
           </div>
-        </div>
-        <div
+        </button>
+        <button
           className={`w-10 h-10 p-1 left-0 top-0 absolute bg-_paratColor rounded-sm flex-col justify-center items-center gap-2 inline-flex ${props.hid}`}
         >
           <div className="p-1 justify-start items-start gap-2.5 inline-flex">
@@ -21,7 +21,7 @@ export default function TeamCard(props) {
               <Image src={props.Icon2} alt="Edit" />
             </div>
           </div>
-        </div>
+        </button>
       </div>
     </div>
   );
