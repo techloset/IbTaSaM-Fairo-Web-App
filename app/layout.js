@@ -1,6 +1,11 @@
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
-const inter = Inter({ subsets: ["latin"] });
+
+const myFont = localFont({
+  src: "../public/fonts/Aeonik-Regular.ttf",
+  display: "swap",
+  variable: "--Aeonik",
+});
 
 export const metadata = {
   title: "Fairo Web App",
@@ -9,9 +14,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={myFont.variable}>
       <body
-        className={`${inter.className} max-w-[1440px] mx-auto h-[926px] md:h-[900px] bg-_bgSlateColor`}
+        className={`max-w-[1440px] mx-auto h-[926px] md:h-[900px] bg-_bgSlateColor font-Aeonik`}
       >
         {children}
       </body>

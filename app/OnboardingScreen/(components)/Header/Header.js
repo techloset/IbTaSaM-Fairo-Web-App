@@ -15,7 +15,7 @@ export default function Header() {
           <input
             type="text"
             placeholder="Search"
-            className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none bg-_grayborder placeholder:pl-1 w-[100%]"
+            className="text-_grayColor text-sm font-normal  leading-[21px] outline-none bg-_grayborder placeholder:pl-1 w-[100%]"
           />
         </div>
         <div className="flex">
@@ -28,7 +28,7 @@ export default function Header() {
             <div className="w-6 h-6 relative md:hidden">
               <Image src={user} alt="user" width={50} />
             </div>
-            <div className="text-center text-_lightGreenColor text-base font-normal font-['Aeonik'] leading-normal hidden md:inline-flex">
+            <div className="text-center text-_lightGreenColor text-base font-normal  leading-normal hidden md:inline-flex">
               Sign in
             </div>
           </button>

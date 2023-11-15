@@ -4,10 +4,8 @@ import img from "@/public/svg/profile/image.svg";
 import plus from "@/public/svg/plus.svg";
 import Header from "../(components)/Header/Header";
 
-export function generateMetadata() {
-  return {
-    title: "Fairo Profile",
-  };
+export const metadata = {
+  title: "Fairo Profile",
 }
 
 export default function page() {
@@ -38,7 +36,7 @@ export default function page() {
                   </div>
                 </div>
               </div>
-              <div className="text-sm font-normal font-['Aeonik'] leading-[21px]">
+              <div className="text-sm font-normal  leading-[21px]">
                 <button className="text-_graydark ">Upload new image •</button>
                 <button className="text-_redColor ms-1">Remove image</button>
               </div>
@@ -58,7 +56,7 @@ export default function page() {
               </div>
             </div>
             <div className="mb-5">
-              <div className="text-black text-lg font-normal font-['Aeonik'] leading-[27px] my-7">
+              <div className="text-black text-lg font-normal  leading-[27px] my-7">
                 Wallets
               </div>
               <div className="max-w-full proLarInputDiv">

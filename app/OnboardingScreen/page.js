@@ -32,25 +32,25 @@ export default function page() {
           <input
             type="text"
             placeholder="Enter invitation link"
-            className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none w-[100%] ml-4"
+            className="text-_grayColor text-sm font-normal  leading-[21px] outline-none w-[100%] ml-4"
           />
         </div>
         <div className="w-full md:w-[640px] h-[52px] mx-auto bg-white border border-_grayborder flex items-center my-5 md:hidden">
           <input
             type="text"
             placeholder="Your Name"
-            className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none w-[100%] ml-4"
+            className="text-_grayColor text-sm font-normal  leading-[21px] outline-none w-[100%] ml-4"
           />
         </div>
         <div className="w-[388px] md:w-[640px] h-[52px] mx-auto py-3.5 bg-_greenColor justify-center items-center hidden md:block">
           <Link
             href="/profile"
-            className="flex justify-center text-_lightGreenColor text-base font-normal font-['Aeonik'] leading-normal"
+            className="flex justify-center text-_lightGreenColor text-base font-normal  leading-normal"
           >
             Log in
           </Link>
         </div>
-        <div className="text-center my-5 text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px]">
+        <div className="text-center my-5 text-_grayColor text-sm font-normal  leading-[21px]">
           Or proceed with
         </div>
 
@@ -67,11 +67,9 @@ export default function page() {
         </div>
         <Link
           href="/profile"
-          className="w-full md:w-[640px] h-[52px] mx-auto py-3.5 bg-_greenColor justify-center items-center block md:hidden mt-20"
+          className="w-full md:w-[640px] h-[52px] mx-auto py-3.5 bg-_greenColor justify-center items-center block md:hidden mt-20 text-center text-_lightGreenColor text-base font-normal leading-normal"
         >
-          <div className="text-center text-_lightGreenColor text-base font-normal font-['Aeonik'] leading-normal">
-            Log in
-          </div>
+          Log in
         </Link>
       </div>
     </>

@@ -5,18 +5,18 @@ export default function TeamMember(props) {
   return (
     <>
       <li>
-        <span className="text-white text-sm font-normal font-['Aeonik'] leading-[21px]">
+        <span className="text-white text-sm font-normal  leading-[21px]">
           Team Members -
         </span>
-        <span className="text-_paratColor text-sm  font-['Aeonik'] leading-[21px] ml-1">
+        <span className="text-_paratColor text-sm   leading-[21px] ml-1">
           {props.teamMember}
         </span>
       </li>
       <li>
-        <span className="text-white text-sm font-normal font-['Aeonik'] leading-[21px]">
+        <span className="text-white text-sm font-normal  leading-[21px]">
           {props.linkName} -
         </span>
-        <span className="text-_paratColor text-sm  font-['Aeonik'] leading-[21px] ml-1">
+        <span className="text-_paratColor text-sm   leading-[21px] ml-1">
           {props.link}
         </span>
       </li>
@@ -24,10 +24,10 @@ export default function TeamMember(props) {
         <span className="mx-2">
           <Image src={dot} />
         </span>
-        <span className="text-white text-sm font-normal font-['Aeonik'] leading-[21px]">
+        <span className="text-white text-sm font-normal  leading-[21px]">
           Discord:
         </span>
-        <span className="text-_paratColor text-sm  font-['Aeonik'] leading-[21px] ml-1">
+        <span className="text-_paratColor text-sm   leading-[21px] ml-1">
           {props.discord}
         </span>
       </li>
@@ -35,10 +35,10 @@ export default function TeamMember(props) {
         <span className="mx-2">
           <Image src={dot} />
         </span>
-        <span className="text-white text-sm font-normal font-['Aeonik'] leading-[21px]">
+        <span className="text-white text-sm font-normal  leading-[21px]">
           Twitter:
         </span>
-        <span className="text-_paratColor text-sm  font-['Aeonik'] leading-[21px] ml-1">
+        <span className="text-_paratColor text-sm   leading-[21px] ml-1">
           {props.twitter}
         </span>
       </li>
@@ -46,10 +46,10 @@ export default function TeamMember(props) {
         <span className="mx-2">
           <Image src={dot} />
         </span>
-        <span className="text-white text-sm font-normal font-['Aeonik'] leading-[21px]">
+        <span className="text-white text-sm font-normal  leading-[21px]">
           Telegram:
         </span>
-        <span className="text-_paratColor text-sm  font-['Aeonik'] leading-[21px] ml-1">
+        <span className="text-_paratColor text-sm   leading-[21px] ml-1">
           {props.telegram}
         </span>
       </li>

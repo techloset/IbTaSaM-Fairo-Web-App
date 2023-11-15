@@ -3,7 +3,7 @@ export default function OutstandingCard(props) {
     <div className="w-full md:h-16 px-4 py-3 bg-white lg:bg-_bgSlateColor justify-between items-center md:flex mt-4">
       <div className="md:flex items-center justify-center">
         <div className="px-3 py-2 bg-_blueColor justify-start items-center inline-flex">
-          <div className="text-white  text-[13px] font-normal font-['Aeonik'] leading-tight flex-shrink-0">
+          <div className="text-white  text-[13px] font-normal  leading-tight flex-shrink-0">
             {props.btnText}
           </div>
         </div>

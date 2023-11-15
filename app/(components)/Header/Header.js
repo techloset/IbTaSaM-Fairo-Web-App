@@ -16,7 +16,7 @@ export default function Header() {
           <input
             type="text"
             placeholder="Search"
-            className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none bg-_grayborder placeholder:pl-1 w-[100%]"
+            className="text-_grayColor text-sm font-normal  leading-[21px] outline-none bg-_grayborder placeholder:pl-1 w-[100%]"
           />
         </div>
         <div className="flex md:hidden">
@@ -39,7 +39,7 @@ export default function Header() {
               <div className="w-5 h-5 relative">
                 <Image src={arrow} alt="arrow-down" />
               </div>
-              <div className="text-gray-800 text-base font-normal font-['Aeonik'] flex-shrink-0">
+              <div className="text-gray-800 text-base font-normal  flex-shrink-0">
                 Jane Sullivan
               </div>
             </div>

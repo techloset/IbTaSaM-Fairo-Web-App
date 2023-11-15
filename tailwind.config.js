@@ -21,6 +21,9 @@ module.exports = {
         _verificationCOlor: "#6551E0",
         _bgSlateColor: "#F6FBFE",
       },
+      fontFamily: {
+        Aeonik: ["var(--Aeonik)"],
+      },
     },
   },
   plugins: [],

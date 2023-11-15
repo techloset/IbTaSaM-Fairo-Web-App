@@ -5,10 +5,8 @@ import Header from "../(components)/Header/Header";
 import OutstandingCard from "./(components)/OutstandingCard/OutstandingCard";
 import TeamCard from "./(components)/TeamCard/TeamCard";
 
-export function generateMetadata(){
-  return{
-    title:"Fairo Dashboard"
-  }
+export const metadata = {
+  title:"Fairo Dashboard"
 }
 
 export default function page() {
@@ -57,7 +55,7 @@ export default function page() {
 
         <div className="lg:w-[864px]">
           <div className="md:max-h-[453px] lg:bg-white lg:p-8 mb-7">
-            <div className="text-black text-lg font-normal font-['Aeonik'] leading-[27px] mb-5 mt-5 lg:mt-0">
+            <div className="text-black text-lg font-normal  leading-[27px] mb-5 mt-5 lg:mt-0">
               Outstanding Action Items
             </div>
             {outstandingCards.map((item) => {
@@ -74,7 +72,7 @@ export default function page() {
           </div>
 
           <div className="md:max-h-[353px] lg:bg-white lg:p-8">
-            <div className="text-black text-lg font-normal font-['Aeonik'] leading-[27px] mb-5">
+            <div className="text-black text-lg font-normal  leading-[27px] mb-5">
               My Teams
             </div>
             {teamCards.map((item) => {

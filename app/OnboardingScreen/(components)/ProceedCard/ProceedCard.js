@@ -6,7 +6,7 @@ export default function ProceedCard(props) {
         <div className="w-8 h-8 relative">
           <Image src={props.imgSvg} alt="imgSvg" width={50} height={50} />
         </div>
-        <div className="text-center text-_blackColor text-sm font-normal font-['Aeonik'] leading-[21px]">
+        <div className="text-center text-_blackColor text-sm font-normal  leading-[21px]">
           {props.text}
         </div>
       </div>
