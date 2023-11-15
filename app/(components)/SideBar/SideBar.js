@@ -49,7 +49,7 @@ export default function SideBar(props) {
       <button
         id="dropdownDividerButto"
         data-dropdown-toggle="dropdownDivider"
-        className="lg:hidden px-4 py-2 flex items-center justify-between w-full sm:w-[500px] lg:w-[416px] mx-auto h-[52px] bg-white border border-gray-100"
+        className="lg:hidden px-4 py-2 flex items-center justify-between w-full sm:w-[500px] lg:w-[416px] mx-auto h-[52px] bg-white border border-_grayborder"
         type="button"
         onClick={() => setShow(!show)}
       >

@@ -2,6 +2,12 @@ import SideBar from "../(components)/SideBar/SideBar";
 import Header from "../(components)/Header/Header";
 import FeedCard from "./FeedCard/FeedCard";
 
+export function generateMetadata(){
+  return{
+    title:"Fairo Feed"
+  }
+}
+
 export default function page() {
   return (
     <>

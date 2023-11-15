@@ -10,7 +10,7 @@ export default function Header() {
         <Link href="/" className="w-[71.08px] h-6">
           <Image src={fairo} alt="Fairo-Logo"/>
         </Link>
-        <div className="w-[416px] h-12 bg-gray-100 border border-gray-100 md:flex items-center px-5 hidden md:ml-20">
+        <div className="w-[416px] h-12 bg-gray-100 border border-_grayborder md:flex items-center px-5 hidden md:ml-20">
           <Image src={search} alt="search"/>
           <input
             type="text"

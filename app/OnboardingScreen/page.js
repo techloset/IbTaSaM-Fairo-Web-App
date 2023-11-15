@@ -28,14 +28,14 @@ export default function page() {
           imgSrc={wallet}
         />
 
-        <div className="w-full md:w-[640px] h-[52px] mx-auto bg-white border border-gray-100 md:flex items-center my-5 hidden">
+        <div className="w-full md:w-[640px] h-[52px] mx-auto bg-white border border-_grayborder md:flex items-center my-5 hidden">
           <input
             type="text"
             placeholder="Enter invitation link"
             className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none w-[100%] ml-4"
           />
         </div>
-        <div className="w-full md:w-[640px] h-[52px] mx-auto bg-white border border-gray-100 flex items-center my-5 md:hidden">
+        <div className="w-full md:w-[640px] h-[52px] mx-auto bg-white border border-_grayborder flex items-center my-5 md:hidden">
           <input
             type="text"
             placeholder="Your Name"

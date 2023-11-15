@@ -1,8 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./OnboardingScreen/(components)/Header/Header";
-import SideBar from "./(components)/SideBar/SideBar";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} mmax-w-[1440px] h-[926px] md:h-[900px] bg-_bgColor`}
+        className={`${inter.className} max-w-[1440px] mx-auto h-[926px] md:h-[900px] bg-_bgColor`}
       >
         {children}
       </body>

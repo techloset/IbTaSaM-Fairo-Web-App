@@ -24,7 +24,7 @@ body {
 }
 
 .proSmallInputDiv {
-  @apply md:max-w-full h-[51px] px-4 py-[15px] bg-white border border-gray-100 flex justify-start items-start gap-2.5;
+  @apply md:max-w-full h-[51px] px-4 py-[15px] bg-white border border-_grayborder flex justify-start items-start gap-2.5;
 }
 
 .proSmallInput {
@@ -32,7 +32,7 @@ body {
 }
 
 .proLarInputDiv {
-  @apply h-[52px] px-4 py-[15px] bg-white border border-gray-100 flex justify-start items-start gap-2.5;
+  @apply h-[52px] px-4 py-[15px] bg-white border border-_grayborder flex justify-start items-start gap-2.5;
 }
 
 .proLarInput {

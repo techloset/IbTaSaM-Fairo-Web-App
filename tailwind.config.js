@@ -11,6 +11,8 @@ module.exports = {
         _greenColor: "#184640",
         _lightGreenColor: "#23CE9D",
         _grayColor: "#A3A7B0",
+        _grayLight: "#E8E9EB",
+        _grayborder: "#EEEFF1",
         _blackColor: "#030306",
         _redColor: "#E2414B",
         _paratColor: "#23CE9D",

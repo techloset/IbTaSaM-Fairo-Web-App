@@ -3,6 +3,13 @@ import edit from "@/public/svg/invitesSvg/editAlt.svg";
 import trash from "@/public/svg/invitesSvg/trash.svg";
 import Header from "../(components)/Header/Header";
 import TableRow from "./(components)/TableRow/TableRow";
+
+export function generateMetadata() {
+  return {
+    title: "Fairo Invites",
+  };
+}
+
 export default function page() {
   const tableData = [
     {
@@ -59,14 +66,14 @@ export default function page() {
               Send an Invite
             </div>
             <div className="lg:flex gap-5 space-y-5 lg:space-y-0 mt-6 mb-10">
-              <div className="lg:w-[234.62px] h-[52px] bg-white border border-gray-100 flex">
+              <div className="lg:w-[234.62px] h-[52px] bg-white border border-_grayborder flex">
                 <input
                   className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
                   placeholder="Project Name"
                   type="text"
                 />
               </div>
-              <div className="lg:w-[325px] col-span-2 h-[52px] bg-white border border-gray-100 flex">
+              <div className="lg:w-[325px] col-span-2 h-[52px] bg-white border border-_grayborder flex">
                 <input
                   className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
                   placeholder="Owner address"

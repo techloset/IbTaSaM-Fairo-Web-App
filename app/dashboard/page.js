@@ -5,6 +5,12 @@ import Header from "../(components)/Header/Header";
 import OutstandingCard from "./(components)/OutstandingCard/OutstandingCard";
 import TeamCard from "./(components)/TeamCard/TeamCard";
 
+export function generateMetadata(){
+  return{
+    title:"Fairo Dashboard"
+  }
+}
+
 export default function page() {
   const outstandingCards = [
     {

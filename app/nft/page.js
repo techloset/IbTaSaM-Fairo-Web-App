@@ -5,6 +5,12 @@ import VerifyText from "./(components)/VerifyText/VerifyText";
 import TeamMember from "./(components)/TeamMember/TeamMember";
 import info from "@/public/svg/info.svg";
 
+export function generateMetadata() {
+  return {
+    title: "Fairo IlluminatiNFT",
+  };
+}
+
 export default function page() {
   const data = [
     {
@@ -42,10 +48,10 @@ export default function page() {
           <div className="text-center text-white text-[24px] font-[400] font-['Aeonik'] leading-[150%]">
             Verify your Project
           </div>
-          <div className="md:w-[640px] text-center text-gray-200 text-[16px] font-['Aeonik'] leading-[150%]">
+          <div className="md:w-[640px] text-center text-_grayLight text-[16px] font-['Aeonik'] leading-[150%]">
             <div class=" text-center">
               <ul className="space-y-[-10px] px-2 sm:px-0">
-                <li className="text-gray-200 text-base font-['Aeonik'] mt-2">
+                <li className="text-_grayLight text-base font-['Aeonik'] mt-2">
                   Once all your team members have signed on, we can start the
                   verification process.
                 </li>
@@ -118,7 +124,7 @@ export default function page() {
             </ul>
           </div>
         </div>
-        <div className="w-full md:w-[640px] h-[200px] mx-auto bg-white border border-gray-100 my-10 p-6">
+        <div className="w-full md:w-[640px] h-[200px] mx-auto bg-white border border-_grayborder my-10 p-6">
           <input
             type="text"
             placeholder="Paste your message here"
@@ -131,7 +137,7 @@ export default function page() {
             <Image src={info} alt="info" className="cursor-pointer" />
           </div>
         </div>
-        <div className="w-full md:w-[640px] h-[52px] mx-auto bg-white border border-gray-100 flex items-center my-5 px-4">
+        <div className="w-full md:w-[640px] h-[52px] mx-auto bg-white border border-_grayborder flex items-center my-5 px-4">
           <input
             type="text"
             placeholder="Enter amount"

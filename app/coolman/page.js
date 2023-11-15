@@ -3,6 +3,13 @@ import SideBar from "../(components)/SideBar/SideBar";
 import imgCopy from "@/public/svg/coolmanSvg/Copy.svg";
 import profileImg from "@/public/images/coolman-images/ProfilePic.jpg";
 import Header from "../(components)/Header/Header";
+
+export function generateMetadata(){
+  return{
+    title:"Fairo Coolman's Universe"
+  }
+}
+
 export default function page() {
   return (
     <>
@@ -76,7 +83,7 @@ export default function page() {
             </div>
 
             <div className="md:flex gap-4 my-5">
-              <div className="lg:w-full col-span-2 h-[52px] bg-white border border-gray-100 flex">
+              <div className="lg:w-full col-span-2 h-[52px] bg-white border border-_grayborder flex">
                 <input
                   className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
                   placeholder="Deployer Wallet"
@@ -98,7 +105,7 @@ export default function page() {
             </div>
 
             <div className="gap-4 my-5 md:hidden">
-              <div className="lg:w-full col-span-2 h-[52px] bg-white border border-gray-100 flex">
+              <div className="lg:w-full col-span-2 h-[52px] bg-white border border-_grayborder flex">
                 <input
                   className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
                   placeholder="Fairo Content Hash"

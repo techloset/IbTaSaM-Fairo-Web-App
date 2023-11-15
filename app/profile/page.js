@@ -4,6 +4,12 @@ import img from "@/public/svg/profile/image.svg";
 import plus from "@/public/svg/plus.svg";
 import Header from "../(components)/Header/Header";
 
+export function generateMetadata() {
+  return {
+    title: "Fairo Profile",
+  };
+}
+
 export default function page() {
   return (
     <>

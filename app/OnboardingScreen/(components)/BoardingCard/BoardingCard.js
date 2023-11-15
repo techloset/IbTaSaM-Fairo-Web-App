@@ -5,7 +5,7 @@ export default function BoardingCard(props) {
       <div className="text-center text-white text-[24px] font-[400] font-['Aeonik'] leading-[150%]">
         {props.heading}
       </div>
-      <div className="md:w-[640px] text-center text-gray-200 text-[16px] font-[400] font-['Aeonik'] leading-[150%]">
+      <div className="md:w-[640px] text-center text-_grayLight text-[16px] font-[400] font-['Aeonik'] leading-[150%]">
         {props.subHeading}
       </div>
       <Image
