@@ -8,13 +8,13 @@ export default function FeedCard() {
       <div className="flex items-center gap-3">
         <Image src={img} alt="First" />
         <div className="text-black text-2xl font-bold font-['Roboto']">ajt</div>
-        <div className="w-32 h-[26px] px-2 py-1 bg-gray-100 justify-start items-center gap-1 inline-flex">
+        <div className="w-32 h-[26px] px-2 py-1 bg-_grayborder justify-start items-center gap-1 inline-flex">
           <div className="text-_verificationCOlor text-xs font-bold font-['Aeonik'] leading-[18px]">
             Pending verification
           </div>
         </div>
       </div>
-      <div className="text-gray-900 text-[13px] md:text-sm font-normal font-['Aeonik'] leading-[35px] my-6">
+      <div className="text-_graydark text-[13px] md:text-sm font-normal font-['Aeonik'] leading-[35px] my-6">
         The fates have decided 0xfa5d05df712b059b74ccefe4084785be7f2ea1b8 shall
         receive the Ancient Gutter Color Illuminary.
         <span className="block md:inline">https://opensea.io/</span>

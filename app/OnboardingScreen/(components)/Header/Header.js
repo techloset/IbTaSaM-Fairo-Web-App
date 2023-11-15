@@ -10,16 +10,16 @@ export default function Header() {
         <Link href="/" className="w-[71.08px] h-6">
           <Image src={fairo} alt="Fairo-Logo"/>
         </Link>
-        <div className="w-[416px] h-12 bg-gray-100 border border-_grayborder md:flex items-center px-5 hidden md:ml-20">
+        <div className="w-[416px] h-12 bg-_grayborder border border-_grayborder md:flex items-center px-5 hidden md:ml-20">
           <Image src={search} alt="search"/>
           <input
             type="text"
             placeholder="Search"
-            className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none bg-gray-100 placeholder:pl-1 w-[100%]"
+            className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none bg-_grayborder placeholder:pl-1 w-[100%]"
           />
         </div>
         <div className="flex">
-          <button className="w-14 h-10 px-4 py-2 bg-gray-100 justify-start items-start gap-2.5 inline-flex md:hidden mr-3">
+          <button className="w-14 h-10 px-4 py-2 bg-_grayborder justify-start items-start gap-2.5 inline-flex md:hidden mr-3">
             <div className="w-6 h-6 relative">
               <Image src={search} alt="search" width={50} />
             </div>

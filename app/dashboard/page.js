@@ -48,11 +48,11 @@ export default function page() {
         <SideBar
           mobText="Dashboard"
           dashCss="bg-emerald-400 text-black"
-          proCss="bg-slate-50 text-gray-400"
-          feeCss="bg-slate-50 text-gray-400"
-          invCss="bg-slate-50 text-gray-400"
-          coolCss="bg-slate-50 text-gray-400"
-          illCss="bg-slate-50 text-gray-400"
+          proCss="bg-_bgSlateColor text-_grayColor"
+          feeCss="bg-_bgSlateColor text-_grayColor"
+          invCss="bg-_bgSlateColor text-_grayColor"
+          coolCss="bg-_bgSlateColor text-_grayColor"
+          illCss="bg-_bgSlateColor text-_grayColor"
         />
 
         <div className="lg:w-[864px]">

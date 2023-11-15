@@ -3,12 +3,12 @@ export default function TableRow(props) {
   return (
     <tr>
       <th className="py-2">
-        <div className="text-gray-900 text-sm font-normal font-['Aeonik'] leading-[21px] pr-6 md:pr-0">
+        <div className="text-_graydark text-sm font-normal font-['Aeonik'] leading-[21px] pr-6 md:pr-0">
           {props.project}
         </div>
       </th>
       <td className="py-2">
-        <div className="text-gray-900 text-sm font-normal font-['Aeonik'] leading-[21px] pr-6 md:pr-0">
+        <div className="text-_graydark text-sm font-normal font-['Aeonik'] leading-[21px] pr-6 md:pr-0">
           {props.wallet}
         </div>
       </td>

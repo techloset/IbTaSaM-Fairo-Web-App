@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function TeamCard(props) {
   return (
-    <div className="w-full h-16 px-4 py-3 bg-white lg:bg-slate-50 justify-between items-center flex mt-4">
+    <div className="w-full h-16 px-4 py-3 bg-white lg:bg-_bgSlateColor justify-between items-center flex mt-4">
       <div className="px-3 py-2 bg-_blueColor justify-start items-center inline-flex">
         <div className="text-white  text-[13px] font-normal font-['Aeonik'] leading-tight flex-shrink-0">
           {props.btnText}

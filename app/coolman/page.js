@@ -17,12 +17,12 @@ export default function page() {
       <div className="max-w-[1320px] h-[200px] mx-auto px-7 lg:flex gap-7">
         <SideBar
           mobText="Coolman’s Universe"
-          dashCss="bg-slate-50 text-gray-400"
-          proCss="bg-slate-50 text-gray-400"
-          feeCss="bg-slate-50 text-gray-400"
-          invCss="bg-slate-50 text-gray-400"
+          dashCss="bg-_bgSlateColor text-_grayColor"
+          proCss="bg-_bgSlateColor text-_grayColor"
+          feeCss="bg-_bgSlateColor text-_grayColor"
+          invCss="bg-_bgSlateColor text-_grayColor"
           coolCss="bg-emerald-400 text-black"
-          illCss="bg-slate-50 text-gray-400"
+          illCss="bg-_bgSlateColor text-_grayColor"
         />
         <div className="lg:w-[862px] md:h-[464px] bg-white">
           <div className="m-5 lg:m-8 pb-5 md:pb-0">
@@ -31,7 +31,7 @@ export default function page() {
                 <div className="text-black text-lg font-normal font-['Aeonik'] leading-[27px] flex-shrink-0">
                   Coolman’s Universe
                 </div>
-                <div className="w-[142px] h-8 px-3 py-1.5 bg-gray-100 justify-start items-center gap-2.5 inline-flex">
+                <div className="w-[142px] h-8 px-3 py-1.5 bg-_grayborder justify-start items-center gap-2.5 inline-flex">
                   <div className="justify-start items-center gap-2 flex">
                     <div className="text-_verificationCOlor text-[13px] font-normal font-['Aeonik'] leading-tight flex-wrap">
                       Pending Verification
@@ -45,7 +45,7 @@ export default function page() {
               </button>
             </div>
 
-            <div className="w-full h-14 px-4 py-3 bg-slate-50 justify-start items-start gap-2.5 inline-flex my-5">
+            <div className="w-full h-14 px-4 py-3 bg-_bgSlateColor justify-start items-start gap-2.5 inline-flex my-5">
               <div className="justify-start items-center gap-2 flex">
                 <div className="text-black text-lg font-normal font-['Aeonik'] leading-[27px]">
                   Invited by
@@ -70,7 +70,7 @@ export default function page() {
               </div>
             </div>
 
-            <div className="max-w-full text-gray-900 text-[12px] sm:text-sm font-normal font-['Aeonik'] leading-[21px] md:hidden my-3">
+            <div className="max-w-full text-_graydark text-[12px] sm:text-sm font-normal font-['Aeonik'] leading-[21px] md:hidden my-3">
               The fates have decided <br />
               0xfa5d05df712b059b74ccefe4084785be7f2ea1b8 shall receive the
               Ancient Gutter Color Illuminary.
@@ -85,7 +85,7 @@ export default function page() {
             <div className="md:flex gap-4 my-5">
               <div className="lg:w-full col-span-2 h-[52px] bg-white border border-_grayborder flex">
                 <input
-                  className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
+                  className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
                   placeholder="Deployer Wallet"
                   type="text"
                 />
@@ -107,7 +107,7 @@ export default function page() {
             <div className="gap-4 my-5 md:hidden">
               <div className="lg:w-full col-span-2 h-[52px] bg-white border border-_grayborder flex">
                 <input
-                  className="text-gray-400 text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
+                  className="text-_grayColor text-sm font-normal font-['Aeonik'] leading-[21px] outline-none px-5"
                   placeholder="Fairo Content Hash"
                   type="text"
                 />

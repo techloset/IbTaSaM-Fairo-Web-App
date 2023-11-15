@@ -17,12 +17,12 @@ export default function page() {
       <div className="max-w-[1320px] h-[200px] mx-auto px-7 lg:flex gap-7">
         <SideBar
           mobText="Profile"
-          dashCss="bg-slate-50 text-gray-400"
+          dashCss="bg-_bgSlateColor text-_grayColor"
           proCss="bg-emerald-400 text-black"
-          feeCss="bg-slate-50 text-gray-400"
-          invCss="bg-slate-50 text-gray-400"
-          coolCss="bg-slate-50 text-gray-400"
-          illCss="bg-slate-50 text-gray-400"
+          feeCss="bg-_bgSlateColor text-_grayColor"
+          invCss="bg-_bgSlateColor text-_grayColor"
+          coolCss="bg-_bgSlateColor text-_grayColor"
+          illCss="bg-_bgSlateColor text-_grayColor"
         />
         <div className="lg:w-[864px] md:h-[765px] lg:bg-white">
           <div className="lg:m-8">
@@ -39,7 +39,7 @@ export default function page() {
                 </div>
               </div>
               <div className="text-sm font-normal font-['Aeonik'] leading-[21px]">
-                <button className="text-gray-900 ">Upload new image •</button>
+                <button className="text-_graydark ">Upload new image •</button>
                 <button className="text-_redColor ms-1">Remove image</button>
               </div>
             </div>

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <>
-        <div className="bg-_bgColor">
+        <div className="bg-_bgSlateColor">
           <OnboardingScreens />
         </div>
       </>

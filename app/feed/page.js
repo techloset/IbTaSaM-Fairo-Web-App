@@ -15,12 +15,12 @@ export default function page() {
       <div className="max-w-[1320px] h-[200px] mx-auto px-7 lg:flex gap-7">
         <SideBar
           mobText="My feed"
-          dashCss="bg-slate-50 text-gray-400"
-          proCss="bg-slate-50 text-gray-400"
+          dashCss="bg-_bgSlateColor text-_grayColor"
+          proCss="bg-_bgSlateColor text-_grayColor"
           feeCss="bg-emerald-400 text-black"
-          invCss="bg-slate-50 text-gray-400"
-          coolCss="bg-slate-50 text-gray-400"
-          illCss="bg-slate-50 text-gray-400"
+          invCss="bg-_bgSlateColor text-_grayColor"
+          coolCss="bg-_bgSlateColor text-_grayColor"
+          illCss="bg-_bgSlateColor text-_grayColor"
         />
 
         <div className="lg:w-[864px]  mt-5 lg:mt-0">
