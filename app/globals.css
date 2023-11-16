@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: Aeonik;
-  src: url(../public/fonts/AeonikTRIAL-Regular.otf);
-}
-
-body {
-  font-family: Aeonik;
-} */
-
 .sideLinkClass1 {
   @apply justify-start gap-2 inline-flex;
 }
