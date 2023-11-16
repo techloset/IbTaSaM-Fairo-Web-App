@@ -47,7 +47,6 @@ export default function page() {
   return (
     <>
       <Header />
-
       <div className="max-w-[1320px] h-[200px] mx-auto px-7 lg:flex gap-7">
         <SideBar
           mobText="Invites"
