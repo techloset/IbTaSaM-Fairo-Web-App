@@ -14,15 +14,15 @@ export default function FeedCard() {
           </div>
         </div>
       </div>
-      <div className="text-_graydark text-[13px] md:text-sm font-normal  leading-[35px] my-6">
+      <div className="text-_graydark text-[14px] md:text-sm font-normal leading-[150%] my-6">
         The fates have decided 0xfa5d05df712b059b74ccefe4084785be7f2ea1b8 shall
         receive the Ancient Gutter Color Illuminary.
-        <span className="block md:inline">https://opensea.io/</span>
-        <span className="block md:inline">
-          assets/0x50b4a624b297198debedf908940f7aacfba6
+        <span className="block md:inline mt-3 md:mt-0">
+          https://opensea.io/
         </span>
-        0180/21
-        <br />
+        <span className=" mb-3 md:mb-0">
+          assets/0x50b4a624b297198debedf908940f7aacfba6 0180/21
+        </span>
         🔺gang gang🔺 @everyone
       </div>
       <div className="w-full md:w-[668px] px-1 md:px-2 py-1 bg-slate-800 justify-start items-start gap-2.5 md:mt-8">

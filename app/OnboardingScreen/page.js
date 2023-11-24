@@ -9,6 +9,7 @@ import Link from "next/link";
 import Header from "./(components)/Header/Header";
 import ProceedCard from "./(components)/ProceedCard/ProceedCard";
 import BoardingCard from "./(components)/BoardingCard/BoardingCard";
+import Image from "next/image";
 
 export default function page() {
   const proceedCards = [
@@ -55,19 +56,65 @@ export default function page() {
         </div>
 
         <div className="w-full md:w-[640px] md:h-[52px] mx-auto grid md:grid-cols-2 md:gap-5 space-y-3 md:space-y-0 pt-5 md:pt-0">
-          {proceedCards.map((card) => {
-            return (
-              <ProceedCard
-                key={card.id}
-                imgSvg={card.imgSvg}
-                text={card.text}
-              />
-            );
-          })}
+          <button className="md:w-[304px] h-16 px-[97px] py-4 bg-white border border-_grayborder flex-col justify-center items-center gap-2.5 inline-flex">
+            <div className="justify-center items-center gap-3 inline-flex">
+              <div className="w-8 h-8 relative">
+                <Image src={metamask} alt="imgSvg" width={50} height={50} />
+              </div>
+              <div className="text-center text-_blackColor text-sm font-normal  leading-[21px]">
+                Metamask
+              </div>
+            </div>
+          </button>
+          <button className="md:w-[304px] h-16 px-[97px] py-4 bg-white border border-_grayborder flex-col justify-center items-center gap-2.5 inline-flex">
+            <div className="justify-center items-center gap-3 inline-flex">
+              <div className="w-8 h-8 relative">
+                <Image
+                  src={walletconnect}
+                  alt="imgSvg"
+                  width={50}
+                  height={50}
+                />
+              </div>
+              <div className="text-center text-_blackColor text-sm font-normal  leading-[21px]">
+                WalletConnect
+              </div>
+            </div>
+          </button>
+          <button className="md:w-[304px] h-16 px-[97px] py-4 bg-white border border-_grayborder flex-col justify-center items-center gap-2.5 hidden md:inline-flex">
+            <div className="justify-center items-center gap-3 inline-flex">
+              <div className="w-8 h-8 relative">
+                <Image src={trezor} alt="imgSvg" width={50} height={50} />
+              </div>
+              <div className="text-center text-_blackColor text-sm font-normal  leading-[21px]">
+                Trezor
+              </div>
+            </div>
+          </button>
+          <button className="md:w-[304px] h-16 px-[97px] py-4 bg-white border border-_grayborder flex-col justify-center items-center gap-2.5 inline-flex">
+            <div className="justify-center items-center gap-3 inline-flex">
+              <div className="w-8 h-8 relative">
+                <Image src={ledger} alt="imgSvg" width={50} height={50} />
+              </div>
+              <div className="text-center text-_blackColor text-sm font-normal  leading-[21px]">
+                Ledger
+              </div>
+            </div>
+          </button>
+          <button className="md:w-[304px] h-16 px-[97px] py-4 bg-white border border-_grayborder flex-col justify-center items-center gap-2.5 inline-flex md:hidden">
+            <div className="justify-center items-center gap-3 inline-flex">
+              <div className="w-8 h-8 relative">
+                <Image src={trezor} alt="imgSvg" width={50} height={50} />
+              </div>
+              <div className="text-center text-_blackColor text-sm font-normal  leading-[21px]">
+                Trezor
+              </div>
+            </div>
+          </button>
         </div>
         <Link
           href="/profile"
-          className="w-full md:w-[640px] h-[52px] mx-auto py-3.5 bg-_greenColor justify-center items-center block md:hidden mt-20 text-center text-_lightGreenColor text-base font-normal leading-normal"
+          className="w-full md:w-[640px] h-[52px] mx-auto py-3.5 bg-_greenColor justify-center items-center block md:hidden mt-28 text-center text-_lightGreenColor text-base font-normal leading-normal"
         >
           Log in
         </Link>

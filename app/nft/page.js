@@ -115,7 +115,7 @@ export default function page() {
                 <span className="text-white text-sm font-normal  leading-[21px]">
                   Coolman NFT:
                 </span>
-                <span className="text-_paratColor text-sm   leading-[21px] ml-1">
+                <span className="text-_paratColor text-sm   leading-[21px] ml-1 block sm:inline">
                   0x4cb18386e5d1f34dc6eea834bf3534a970a3f8e7
                 </span>
               </li>
