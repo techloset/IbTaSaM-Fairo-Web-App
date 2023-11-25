@@ -22,8 +22,8 @@ export default function page() {
         />
 
         <div className="lg:w-[864px]  mt-5 lg:mt-0">
-          <FeedCard />
-          <FeedCard />
+          <FeedCard divFirst="block md:hidden" divSecond="hidden md:block"/>
+          <FeedCard  divFirst="hidden" divSecond="block"/>
         </div>
       </div>
     </>

@@ -1,5 +1,13 @@
+import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+
+export const roboto  = Roboto({
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const myFont = localFont({
   src: "../public/fonts/Aeonik-Regular.ttf",
@@ -14,7 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={myFont.variable}>
+    <html lang="en" className={`${myFont.variable}`}>
       <body
         className={`max-w-[1440px] mx-auto h-[926px] md:h-[900px] bg-_bgSlateColor font-Aeonik`}
       >
