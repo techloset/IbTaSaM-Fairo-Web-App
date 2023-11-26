@@ -70,8 +70,10 @@ export default function SideBar(props) {
           {linksArray.map((item) => {
             return (
               <Link key={item.id} href={item.href} className={item.class}>
-                <div className="sideLinkClass1">
-                  <div className="sideLinkClass2">{item.content}</div>
+                <div className="justify-start gap-2 inline-flex">
+                  <div className="text-center text-[14px] font-[400] leading-[21px]">
+                    {item.content}
+                  </div>
                 </div>
               </Link>
             );
@@ -86,8 +88,10 @@ export default function SideBar(props) {
           {linksArray2.map((item) => {
             return (
               <Link key={item.id} href={item.href} className={item.class}>
-                <div className="sideLinkClass1">
-                  <div className="sideLinkClass2">{item.content}</div>
+                <div className="justify-start gap-2 inline-flex">
+                  <div className="text-center text-sm font-normal leading-[21px]">
+                    {item.content}
+                  </div>
                 </div>
               </Link>
             );

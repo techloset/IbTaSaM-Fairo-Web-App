@@ -4,9 +4,17 @@ import imgCopy from "@/public/svg/coolmanSvg/Copy.svg";
 import profileImg from "@/public/images/coolman-images/ProfilePic.jpg";
 import Header from "../(components)/Header/Header";
 
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  weight: "700",
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export const metadata = {
-  title:"Fairo Coolman's Universe"
-}
+  title: "Fairo Coolman's Universe",
+};
 
 export default function page() {
   return (
@@ -45,14 +53,16 @@ export default function page() {
 
             <div className="w-full h-14 px-4 py-3 bg-_bgSlateColor justify-start items-start gap-2.5 inline-flex my-5">
               <div className="justify-start items-center gap-2 flex">
-                <div className="text-black text-lg font-normal  leading-[27px]">
+                <div className="text-black text-[18px] font-[400] leading-[27px]">
                   Invited by
                 </div>
                 <div className="h-8 relative">
                   <Image src={profileImg} alt="Profile-Image" />
-                  <div className="left-[40px] top-[6px] absolute text-black text-base font-bold font-['Roboto']">
-                    ajt
-                  </div>
+                </div>
+                <div
+                  className={`text-black text-[24px] md:text-[16px] font-[700] ${roboto.className}`}
+                >
+                  ajt
                 </div>
               </div>
             </div>
@@ -97,7 +107,7 @@ export default function page() {
               <div className="w-5 h-5 relative flex-col justify-start items-start inline-flex border-2 border-black rounded-full p-0.5">
                 <button className="w-3 h-5 bg-white rounded-full active:bg-_paratColor"></button>
               </div>
-              <lable className="w-[610px] text-black text-base font-normal  leading-normal">
+              <lable className="w-[610px] text-black text-[16px] font-[600]  leading-[24px]">
                 Project does not have a deployer wallet
               </lable>
             </div>
@@ -115,8 +125,8 @@ export default function page() {
               </button>
             </div>
 
-            <button className="w-full h-[52px] px-12 py-2 bg-_redColor flex justify-center items-center gap-1 mt-5 md:mt-12 text-center text-white text-sm font-normal  leading-[21px]">
-              Save changes
+            <button className="w-full h-[52px] px-12 py-2 bg-_redColor flex justify-center items-center gap-1 mt-7 md:mt-12 text-center text-white text-[14px] font-[400] leading-[21px]">
+              Revoke Invitation
             </button>
           </div>
         </div>

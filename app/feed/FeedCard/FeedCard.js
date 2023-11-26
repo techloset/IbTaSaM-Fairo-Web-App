@@ -1,13 +1,24 @@
 import Image from "next/image";
 import img from "@/public/images/coolman-images/ProfilePic.jpg";
 import imghash from "@/public/svg/hash.svg";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  weight: "700",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function FeedCard(props) {
   return (
     <div className="w-full md:h-[246px] bg-white p-6 mb-5">
       <div className="flex items-center gap-3">
         <Image src={img} alt="First" />
-        <div className={`text-black text-2xl font-bold`}>ajt</div>
+        <div
+          className={`text-black text-[24px] font-[700] ${roboto.className}`}
+        >
+          ajt
+        </div>
         <div className="w-32 h-[26px] px-2 py-1 bg-_grayborder justify-start items-center gap-1 inline-flex">
           <div className="text-_verificationCOlor text-[12px] font-[700]  leading-[18px]">
             Pending verification

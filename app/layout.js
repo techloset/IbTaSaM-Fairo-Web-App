@@ -1,17 +1,10 @@
-import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-
-export const roboto  = Roboto({
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  display: "swap",
-});
 
 const myFont = localFont({
   src: "../public/fonts/Aeonik-Regular.ttf",
   display: "swap",
+  weight: "400",
   variable: "--Aeonik",
 });
 

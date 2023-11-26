@@ -130,7 +130,7 @@ export default function page() {
           />
         </div>
         <div className="w-full md:w-[640px] mx-auto">
-          <div class="text-black text-lg font-medium  leading-[27px] flex gap-2">
+          <div class="text-black text-[18px] font-[600] leading-[27px] flex gap-2">
             Optional tip
             <Image src={info} alt="info" className="cursor-pointer" />
           </div>
@@ -142,17 +142,17 @@ export default function page() {
             className="text-_grayColor text-sm font-normal  leading-[21px] outline-none w-[100%]"
           />
           <div class="w-[42px] h-[37px] p-1 bg-emerald-400 rounded-sm flex-col justify-start items-start gap-2.5 inline-flex">
-            <button class="p-1 justify-start items-start gap-2.5 inline-flex text-teal-900 text-sm font-normal  leading-[21px]">
+            <button class="p-1 justify-start items-start gap-2.5 inline-flex text-teal-900 text-[14px] font-[600]  leading-[21px]">
               ETH
             </button>
           </div>
         </div>
         <div className="w-full md:w-[640px] mx-auto">
           <div className="grid grid-cols-2 gap-5 py-8">
-            <button class="py-3.5 bg-white border border-emerald-400 justify-center items-center inline-flex text-emerald-400 text-base font-medium  leading-normal">
+            <button class="py-3.5 bg-white border border-emerald-400 justify-center items-center inline-flex text-emerald-400 text-[16px] font-[500]  leading-[24px]">
               ← Back
             </button>
-            <button class="py-3.5 bg-teal-900 justify-center items-center inline-flex text-emerald-400 text-base font-medium  leading-normal">
+            <button class="py-3.5 bg-teal-900 justify-center items-center inline-flex text-emerald-400 text-[16px] font-[500]  leading-[24px]">
               Continue →
             </button>
           </div>
