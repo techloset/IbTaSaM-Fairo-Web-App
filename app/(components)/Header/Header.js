@@ -13,6 +13,7 @@ export default function Header() {
         </Link>
         <div className="w-[416px] h-12 bg-_grayborder border border-_grayborder md:flex items-center px-5 hidden md:ml-32">
           <Image src={search} alt="search" />
+          <Image src={search} alt="search" />
           <input
             type="text"
             placeholder="Search"
